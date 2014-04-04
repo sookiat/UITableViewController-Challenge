@@ -20,6 +20,7 @@
 		82B6797C18EE556000F7A003 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82B6795E18EE556000F7A003 /* UIKit.framework */; };
 		82B6798418EE556000F7A003 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82B6798218EE556000F7A003 /* InfoPlist.strings */; };
 		82B6798618EE556000F7A003 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6798518EE556000F7A003 /* UITableViewController_Challenge_SolutionTests.m */; };
+		82B6799118EE6E0300F7A003 /* CCUITableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6799018EE6E0300F7A003 /* CCUITableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		82B6798118EE556000F7A003 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		82B6798318EE556000F7A003 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		82B6798518EE556000F7A003 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		82B6798F18EE6E0300F7A003 /* CCUITableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCUITableViewController.h; sourceTree = "<group>"; };
+		82B6799018EE6E0300F7A003 /* CCUITableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCUITableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 				82B6796918EE556000F7A003 /* CCAppDelegate.h */,
 				82B6796A18EE556000F7A003 /* CCAppDelegate.m */,
 				82B6796C18EE556000F7A003 /* Main.storyboard */,
+				82B6798F18EE6E0300F7A003 /* CCUITableViewController.h */,
+				82B6799018EE6E0300F7A003 /* CCUITableViewController.m */,
 				82B6797218EE556000F7A003 /* Images.xcassets */,
 				82B6796118EE556000F7A003 /* Supporting Files */,
 			);
@@ -247,6 +252,7 @@
 			files = (
 				82B6796B18EE556000F7A003 /* CCAppDelegate.m in Sources */,
 				82B6796718EE556000F7A003 /* main.m in Sources */,
+				82B6799118EE6E0300F7A003 /* CCUITableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
